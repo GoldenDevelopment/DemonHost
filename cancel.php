@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demon Hosting | Cancel</title>
+    <link rel="stylesheet" href="./css/cancel.css">
+    <link rel="icon" href="./img/simon.ico">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6118394216383343"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img alt="This is the logo" src="./img/logo.png" class="logo">
+     <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="https://discord.gg/Eu5z24JNYY">Discord</a></li>
+            <li><a href="https://forum.demonhost.us">Forum</a></li>
+            <li><a href="https://dash.demonhost.us">Dashboard</a></li>
+            <li><a href="https://panel.demonhost.us">Game Panel</a></li>
+        </ul>
+     </nav>
+    </header>
+    <section class="main">
+        <section class="articles">
+        <article>
+            <h2>Payment Canceled</h2>
+            <p>Your payament canceled</p>
+            <form method="post">
+                <h3 class="TellWhyUs">Tell us why?</h3>
+                <p class="TellWhyUs">Name:</p>
+                <input type="text" placeholder="Your Name Here." name="name" require="">
+                <p class="TellWhyUs">E-Mail:</p>
+                <input type="email" placeholder="Your E-Mail Here." name="email" require="">
+                <p class="TellWhyUs">Reazon:</p>
+                <textarea placeholder="Your reazon Here." name="reazon"></textarea>
+                <input type="submit" name="enviar">
+            </form>
+            <?php
+            include("mail.php");
+            ?>
+        </article>
+        </section>
+
+        <aside>
+            <h3>Terms and conditions</h3>
+            <p>Our terms and conditions are:</p>
+            <p> The use of our hosting to do evil like raid bots and :/ or bitcoins miners is completely prohibited and will be removed from our databases and permanently banned from the hosting!</p>
+        </aside>
+    </section>
+
+    <footer>
+        <p>All rights reserved to Demon Hosting 2021 - 2022</p>
+    </footer>
+</body>
+</html>

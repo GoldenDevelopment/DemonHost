@@ -29,7 +29,7 @@
         <article>
             <h2>Payment Canceled</h2>
             <p>Your payament canceled</p>
-            <form method="post">
+            <form action="email.php" method="post">
                 <h3 class="TellWhyUs">Tell us why?</h3>
                 <p class="TellWhyUs">Name:</p>
                 <input type="text" placeholder="Your Name Here." name="name" require="">
@@ -39,9 +39,6 @@
                 <textarea placeholder="Your reazon Here." name="reazon"></textarea>
                 <input type="submit" name="enviar">
             </form>
-            <?php
-            include("mail.php");
-            ?>
         </article>
         </section>
 

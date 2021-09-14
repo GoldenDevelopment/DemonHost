@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(10, 33, 240);
+}
+header, .main, footer {
+    width: 90%;
+    max-width: 1000px;
+    margin:20px auto;
+}
+header nav {
+    background: rgb(51, 71, 250);
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:inherit;
+}
+header nav ul {
+    list-style: none;
+}
+header nav ul li {
+    float: left;
+}
+header nav ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    background: rgb(78, 95, 255);
+}
+.main .articles {
+    width: 68.5%;
+    float: left;
+    background: rgb(10, 33, 240);
+    margin-right: 1.5%;
+}
+.main .articles article {
+    padding: 20px;
+    background: rgb(51, 71, 250);
+    margin-bottom: 20px;
+}
+aside {
+    width: 30%;
+    background: rgb(51, 71, 250);
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+footer {
+    background: rgb(51, 71, 250);
+    clear: both;
+    padding: 10px 0px;
+    text-align: center;
+}
+.sus {
+    background: rgb(78, 95, 255);
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:inherit;
+    list-style: none;
+    padding: 10px 20px;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+.sus:hover {
+    background: rgb(104, 119, 253);
+
+}
+.logo {
+    width: 50%;
+}
+input {
+    margin: 3px;
+    padding: 10px;
+    width: 95%;
+    border: none;
+}
+textarea {
+    margin: 3px;
+    padding: 10px;
+    width: 95%;
+    min-height: 50px;
+    max-height: 100px;
+    min-width: 95%;
+    max-width: 95%;
+    border: none;
+    margin-bottom: 5px;
+}
+form {
+    background: rgb(33, 80, 209);
+    margin: auto;
+}
+input[type="submit"] {
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.TellWhyUs {
+    font-family: Arial, Helvetica, sans-serif;
+}
